@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 /**
- * main - it prints the puts functions in c
- *
- * return:0
+ * main - It prints the puts functions in c
+ * Return:0
  */
 
 int main(void)
 {
-puts("\"programming is like building a multilingual puzzle");
+	puts("\"programming is like building a multilingual puzzle");
 
-raturn (0;)
+return (0);
+}
