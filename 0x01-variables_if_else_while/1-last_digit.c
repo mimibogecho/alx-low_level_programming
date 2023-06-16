@@ -5,7 +5,7 @@
 /**
  * main - program will assign a random number to the variable
  *
- * Return: 1
+ * Return: 0
  */
 
 int main(void)
@@ -20,11 +20,11 @@ int main(void)
 	{
 		printf("last digit of %d is %d and is greater that 5\n", n, lastd);
 	}
-	else if (lasts == 0)
+	else if (lastd == 0)
 	{
 		printf("last digit of %d is %d and is 0\n", n, lastd);
 	}
-	else if (last < 6 && lastd != 0)
+	else if (lastd < 6 && lastd != 0)
 	{
 		printf("last digit of %d is %d and is less than 6 and not 0\n", n, lastd);
 	}
