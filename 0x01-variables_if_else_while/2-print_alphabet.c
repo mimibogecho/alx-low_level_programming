@@ -5,9 +5,10 @@
  * Return: 0
  *
  */
+
 int main(void)
 
-{	
+{
 	char c;
 
 	c = 'a';
@@ -18,5 +19,6 @@ int main(void)
 	c++;
 }
 putchar('\n');
+
 return (0);
 }
