@@ -4,7 +4,6 @@
 
 /**
  * main - program will assign a random number to the variable
- *
  * Return: 0
  */
 
