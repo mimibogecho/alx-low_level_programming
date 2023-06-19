@@ -6,7 +6,7 @@
 /**
  * main -Entry point
  *
- *Retur: 0 (success)
+ *Return: 0 (success)
  *
  */
 
