@@ -6,6 +6,7 @@
  * return: 1
  */
 
-int _putchar(int d)
+int _putchar(int c)
 {
-        return (write(1, &c, 1));
+	return (write(1, & c, 1));
+}
