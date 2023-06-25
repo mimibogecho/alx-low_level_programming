@@ -3,10 +3,9 @@
 /**
  * main - program that prints _putchar
  *
- * Return: 1
+ * return: 1
  */
 
-int _putchar(int c)
+int _putchar(int d)
 {
-	return (write(1, & c, 1));
-}
+        return (write(1, &c, 1));
