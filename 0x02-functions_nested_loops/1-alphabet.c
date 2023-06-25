@@ -1,13 +1,12 @@
 #include "main.h"
 
 /**
- * main - print alpahabet
+ * main - print alphabet
  *
  * return : 0
- *
  */
 
-void print_alphabet(void);
+void print_alphabet(void)
 {
 	int s;
 
