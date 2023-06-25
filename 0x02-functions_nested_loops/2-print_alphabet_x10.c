@@ -17,7 +17,7 @@ while (d < 10)
 	_putchar(c);
 	}
 	_putchar('\n');
-	
+
 	d++;
 	}
 
