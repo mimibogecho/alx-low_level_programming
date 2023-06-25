@@ -1,12 +1,19 @@
-#include <unistd.h>
+#include "main.h"
 
 /**
- * main - program that prints _putchar
+ * main - print alpahabet
  *
- * return: 1
+ * return : 0
+ *
  */
 
-int _putchar(int c)
+void print_alphabet(void)
 {
-	return (write(1, & c, 1));
+	int s;
+	
+	for (s = 'a'; s <= 'z'; s++)
+	{
+		_putchar(s);
+	}
+		_putchar('\n');
 }
