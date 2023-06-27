@@ -32,7 +32,7 @@ int main(void)
 	{
 		if (pass[ind] >= (33 + dif_half1))
 		{
-			pass[ind] -= dif_half2;
+			pass[ind] -= dif_half1;
 			break;
 
 		}
