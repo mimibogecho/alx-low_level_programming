@@ -26,19 +26,27 @@ int main(void)
 		dif_half1 = (sm - 2772) / 2;
 		dif_half2 = (sm - 2772) / 2;
 
-		if ((sm -2772) % 2 !=0)
+		if ((sm - 2772) % 2 != 0)
 			dif_half1++;
 	for (ind = 0; pass[ind]; ind++)
 	{
 		if (pass[ind] >= (33 + dif_half1))
 		{
-			pass[ind] -= dif_half1;
-			break;
+		pass[ind] -= dif_half1;
+		break;
 
 		}
+		}
 	}
+	for (ind = 0; pass[ind]; ind++)
+	{
+		if (pass[ind] >= (33 + dif_half2))
+		{
+			pass[ind] -= dif_half2;
+		break;
+
+		}
 	}
 	printf("%s", pass);
 	return (0);
 }
-		
