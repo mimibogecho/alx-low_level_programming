@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - A program that finds and prints the sum of even-valued terms
+ * main - Prints the sum of even-valued terms
  * Return: Always 0
  *
  */
