@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdlib.h>
 
 /**
  * main - A program that finds and prints the sum of even-valued terms
